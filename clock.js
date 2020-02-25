@@ -11,8 +11,6 @@ function getTime(){
 
 function init(){
     getTime();
-    setInterval(getTime, 1000);//function, milisecs
+    setInterval(getTime, 100);//function, milisecs
 }
 init();
-
-
