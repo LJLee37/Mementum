@@ -11,8 +11,8 @@ function paintImqage(imgNumber)
 {
     const image = new Image();
     image.src = `images/${imgNumber}.jpg`;
-    image.classList.add("bgImage")
-    body.prepend(image);   
+    image.classList.add("bgImage");
+    body.prepend(image);
 }
 
 function genRandom()
